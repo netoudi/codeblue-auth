@@ -1,0 +1,13 @@
+### Jhon Doe - Tenant 1
+POST http://localhost:8080/auth/realms/codeblue/protocol/openid-connect/token
+Content-Type: application/x-www-form-urlencoded
+
+client_id=nest&client_secret=c74a6357-d5a4-451d-ae30-47a09db7a53c&grant_type=password&username=jhon@codeblue.com&password=123456
+
+### Jane Doe - Tenant 2
+POST http://localhost:8080/auth/realms/codeblue/protocol/openid-connect/token
+Content-Type: application/x-www-form-urlencoded
+
+client_id=nest&client_secret=c74a6357-d5a4-451d-ae30-47a09db7a53c&grant_type=password&username=jane@codeblue.com&password=123456
+
+###
